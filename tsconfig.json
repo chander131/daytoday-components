@@ -1,0 +1,32 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"lib": ["es5", "es6", "es7", "es2017", "dom"],
+		"jsx": "react",
+		"sourceMap": true,
+		"allowJs": false,
+		"module": "commonjs",
+		"moduleResolution": "node",
+		// "rootDir": "src" /* Specify the root folder within your source files. */,
+		"rootDirs": ["src", "stories"],
+		"baseUrl": "src",
+		"outDir": "build",
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noImplicitAny": true,
+		"strictNullChecks": false,
+		"suppressImplicitAnyIndexErrors": true,
+		"noUnusedLocals": true,
+		"allowSyntheticDefaultImports": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"declaration": true,
+		"removeComments": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"skipLibCheck": true
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules", "build", "stories", "test/", "scripts", "src/**/*.test.*", "src/**/*.test-visual.*"]
+}
